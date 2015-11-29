@@ -93,4 +93,4 @@ JavaScript配置
 ### 其它说明
 
 * 依赖[jQuery](http://jquery.com/)
-* src/image文件夹下的图片是提示框用的小三角，目前为进行图片合并
+* src/image文件夹下的图片是提示框用的小三角，目前还没有CSSSprite处理

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>jquery.tooltip.js 使用示例</title>
+    <link rel="stylesheet" href="../src/jquery.tooltip.css"/>
+    <style>
+        .container{
+            width: 200px;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span data-tip-content="这是一段很长的提示文字">Hover me</span>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="../src/jquery.tooltip.js"></script>
+    <script>
+        $("span").tooltip({
+            position: "bottom"
+        });
+    </script>
+</body>
+</html>

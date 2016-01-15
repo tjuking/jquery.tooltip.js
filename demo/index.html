@@ -9,17 +9,31 @@
             width: 200px;
             margin: 100px auto;
         }
+        .demo{
+            width: 90px;
+            margin-top: 80px;
+            background-color: red;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <span data-tip-content="这是一段很长的提示文字">Hover me</span>
+        <p class="demo demo-1" data-tip-content="demo1: 这是一段很长的提示文字">Hover me</p>
+        <p class="demo demo-2">Hover me hover me hover me hover me</p>
     </div>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="../src/jquery.tooltip.js"></script>
     <script>
-        $("span").tooltip({
-            position: "bottom"
+        $(function(){
+            $(".demo-1").tooltip({
+                position: "bottom"
+            });
+            $(".demo-2").tooltip({
+                width: 60,
+                align: "top",
+                content: "demo2: 这是一段很长的文字"
+            });
         });
     </script>
 </body>

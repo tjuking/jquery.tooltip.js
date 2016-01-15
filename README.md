@@ -1,12 +1,12 @@
 # jquery.tooltip.js
 
-jQuery tooltip插件，可轻松自定义并实现hover某元素后展示提示信息的框
+jquery.tooltip.js是一款jQuery提示插件，可自定义配置并实现hover参考元素后展示提示信息
 
 ### 特点
 
 * 配置简单，使用方便
-* 三级配置方案：JavaScript > HTML标签属性 > 默认
-* 支持对提示框位置的控制
+* 三级配置：JavaScript > HTML标签属性 > 默认
+* 支持对提示框位置和对齐方式的控制
 
 ### 配置说明
 
@@ -93,4 +93,4 @@ JavaScript配置
 ### 其它说明
 
 * 依赖[jQuery](http://jquery.com/)
-* src/image文件夹下的图片是提示框用的小三角，目前为进行图片合并
+* src/image文件夹下的图片是提示框用的小三角，目前还没有CSSSprite处理
